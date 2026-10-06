@@ -102,7 +102,7 @@ public class Main {
 
         while (countdown > 0) {
             System.out.println(countdown);
-            countdown--;
+            countdown = countdown - 1;
         }
     }
 }
